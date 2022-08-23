@@ -1,59 +1,74 @@
+body {
+  background-color: beige;
+}
+
 .header {
+  position: fixed;
+  width: 100%;
   background-color: darkturquoise;
   height: 40px;
-  width: 100%;
-  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.nav-list {
+  line-height: 40px;
+  list-style: none;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 .nav-item {
-  height: 40px;
+  float: left;
   margin-left: 16px;
-  display: inline;
   color: white;
 }
+
 .content {
   height: 5000px;
-  background-color: beige;
+  width: calc(100% / 1);
 }
+
 .head {
+  position: relative;
+  top: 150px;
   height: 200px;
   width: 200px;
   background-color: aquamarine;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.ear {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  height: 60px;
+  width: 40px;
+  background-color: brown;
 }
+
+.eye {
+  position: absolute;
+  background-color: grey;
+  height: 30px;
+  width: 30px;
+  top: 80px;
+  border-radius: 50%;
+}
+
 .ear_right {
-  height: 60px;
-  width: 40px;
-  background-color: brown;
-  margin-left: 200px;
-  margin-top: -60px;
+  top: -60px;
+  right: -40px;
 }
+
 .ear_left {
-  height: 60px;
-  width: 40px;
-  background-color: brown;
-  margin-left: -40px;
-  margin-top: -60px;
+  top: -60px;
+  left: -40px;
 }
+
 .eye_right {
-  height: 30px;
-  width: 30px;
-  background-color: gray;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 80px;
-  margin-left: 40px;
+  right: 40px;
 }
+
 .eye_left {
-  height: 30px;
-  width: 30px;
-  background-color: gray;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 80px;
-  margin-left: 40px;
+  left: 40px;
 }
