@@ -1,0 +1,59 @@
+.header {
+  background-color: darkturquoise;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-item {
+  height: 40px;
+  margin-left: 16px;
+  display: inline;
+  color: white;
+}
+.content {
+  height: 5000px;
+  background-color: beige;
+}
+.head {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.ear_right {
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  margin-left: 200px;
+  margin-top: -60px;
+}
+.ear_left {
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  margin-left: -40px;
+  margin-top: -60px;
+}
+.eye_right {
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.eye_left {
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 40px;
+}
